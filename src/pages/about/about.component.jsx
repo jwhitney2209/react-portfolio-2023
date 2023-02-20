@@ -84,7 +84,7 @@ function About() {
                 conquer a problem that was in my way.
               </p>
               <p>
-                Today, I’m a freelance web developer and the founder of
+                Today, I’m part of the instructional staff as a teaching assistant for a Full Stack coding bootcamp, a choir director and the founder of
                 Prestissmo, where we’re working on developing solutions for
                 music educators to help them better manage all of the business
                 side of music program management, so that they can focus more on

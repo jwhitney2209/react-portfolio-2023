@@ -1,4 +1,5 @@
 import { Container } from "../../components/container/container.component";
+import { SkillIcon } from "../../components/skill-icons/skill-icons.component";
 import {
   GitHubIcon,
   LinkedInIcon,
@@ -28,6 +29,9 @@ function Home() {
             focus on building modern accessible applications that are responsive
             and that optimize the user experience.
           </p>
+          <div className="mt-6 flex gap-4">
+            <SkillIcon />
+          </div>
           <div className="mt-6 flex gap-6">
             <SocialLink
               href="https://github.com/jwhitney2209/"
