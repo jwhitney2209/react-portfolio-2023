@@ -16,7 +16,7 @@ function SocialLink({ icon: Icon, ...props }) {
 function Home() {
   return (
     <>
-      <Container className='mt-9'>
+      <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl sm:text-5xl font-bold text-neutral-800 dark:text-neutral-100 tracking-tight">
             Jason Whitney
@@ -29,7 +29,19 @@ function Home() {
             focus on building modern accessible applications that are responsive
             and that optimize the user experience.
           </p>
-          <div className="mt-6 flex gap-4">
+          <p className="mt-6 text-neutral-900 dark:text-neutral-500">
+            With nine years of experience as a program director in education, I
+            have skills that can translate well into a variety of roles. A key
+            component of my job is setting short and long-term goals for small
+            and large teams of people and devising a plan to scaffold and build
+            towards those goals.
+          </p>
+          <p className="mt-6 text-neutral-900 dark:text-neutral-500">
+            I am passionate about anything I put my name on and I have very high
+            expectations of myself. I enjoy seeking solutions to problems, but I
+            also know when I need to ask for help.
+          </p>
+          <div className="mt-9 flex gap-4">
             <SkillIcon />
           </div>
           <div className="mt-6 flex gap-6">
@@ -45,7 +57,7 @@ function Home() {
             />
           </div>
         </div>
-        </Container>
+      </Container>
     </>
   );
 }

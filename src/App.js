@@ -1,3 +1,5 @@
+import { Routes, Route } from 'react-router-dom'
+
 import Header from "./components/header/header.component";
 import Home from "./pages/home/home.component";
 import About from "./pages/about/about.component";
@@ -16,14 +18,11 @@ function App() {
         <div className="max-w-7xl mx-auto shadow-md bg-white dark:bg-neutral-900"> */}
       <div className="relative">
         <Header />
-        <Home />
-        <Projects />
-        <About />
-        {/* <Routes>
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
-        </Routes> */}
+        </Routes>
         <Footer />
       </div>
       {/* </div>
