@@ -39,9 +39,9 @@ export function SkillIcon() {
     <>
       {icons &&
         icons.map((icon) => (
-          <button key={icon.src}className="rounded-full shadow-md p-2 sm:p-3 bg-neutral-900 hover:bg-neutral-100 dark:hover:bg-neutral-500">
-            <img src={icon.src} alt="react icon" width={48} />
-          </button>
+          <div key={icon.src}className="rounded-full shadow-md p-2 sm:p-3 bg-neutral-900 hover:bg-neutral-100 dark:hover:bg-neutral-500">
+            <img src={icon.src} alt="react icon" width={48} height={48} />
+          </div>
         ))}
     </>
   );

@@ -25,6 +25,11 @@ function Home() {
             <h2 className="text-xl sm:text-2xl font-semibold text-neutral-800 dark:text-neutral-100 tracking-tight">
               Full Stack Web Developer
             </h2>
+            <div className="mt-6 flex sm:flex-row flex-col">
+              <div className="flex gap-2">
+                <SkillIcon />
+              </div>
+            </div>
             <p className="mt-6 text-neutral-900 dark:text-neutral-500">
               Full stack web developer and music educator based in Texas with a
               focus on building modern accessible applications that are
@@ -42,9 +47,7 @@ function Home() {
               high expectations of myself. I enjoy seeking solutions to
               problems.
             </p>
-            <div className="mt-9 flex gap-4">
-              <SkillIcon />
-            </div>
+
             <div className="mt-6 flex gap-6">
               <SocialLink
                 href="https://github.com/jwhitney2209/"
@@ -59,7 +62,9 @@ function Home() {
             </div>
           </div>
           <div className="invisible sm:visible lg:pl-20">
-            <h1 className="text-4xl sm:text-9xl font-bold text-neutral-800 dark:text-neutral-100 tracking-tight">DO WHAT YOU LOVE!</h1>
+            <h1 className="text-4xl sm:text-9xl font-bold text-neutral-800 dark:text-neutral-100 tracking-tight">
+              DO WHAT YOU LOVE!
+            </h1>
           </div>
         </div>
       </Container>
