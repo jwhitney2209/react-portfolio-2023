@@ -35,12 +35,11 @@ const icons = [
 ];
 
 export function SkillIcon() {
-  console.log(icons)
   return (
     <>
       {icons &&
         icons.map((icon) => (
-          <button className="rounded-full shadow-md p-2 sm:p-3 bg-neutral-900 hover:bg-neutral-100 dark:hover:bg-neutral-500">
+          <button key={icon.src}className="rounded-full shadow-md p-2 sm:p-3 bg-neutral-900 hover:bg-neutral-100 dark:hover:bg-neutral-500">
             <img src={icon.src} alt="react icon" width={48} />
           </button>
         ))}

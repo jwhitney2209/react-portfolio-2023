@@ -16,7 +16,7 @@ function App() {
       </div>
       {/* <div className="w-full h-max bg-neutral-100 dark:bg-black">
         <div className="max-w-7xl mx-auto shadow-md bg-white dark:bg-neutral-900"> */}
-      <div className="relative">
+      <div className="">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
