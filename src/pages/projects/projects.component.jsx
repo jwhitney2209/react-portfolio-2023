@@ -5,10 +5,10 @@ const projects = [
   {
     name: "Prestissimo",
     description:
-      "Database management SaaS with the intent to help music educators spend more time on making music, and less time dealing with the business side of running a music program.",
+      "Database management system designed to help music educators spend more time on making music, and less time dealing with the business side of running a music program. Built with the MERN Stack utilizing GraphQL and Apollo.",
     link: {
-      to: "https://github.com/jwhitney2209/prestissimo",
-      label: "Github Repo",
+      to: "https://useprestissimo.com/",
+      label: "Deployed Website",
     },
   },
   {
